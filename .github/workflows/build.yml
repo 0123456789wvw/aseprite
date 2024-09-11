@@ -44,7 +44,7 @@ jobs:
 
       with:
 
-      key: ${{ matrix.os }}-${{ matrix.enable_ui }}
+        key: ${{ matrix.os }}-${{ matrix.enable_ui }}
 
     - uses: seanmiddleditch/gha-setup-ninja@master
 
